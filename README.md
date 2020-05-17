@@ -22,6 +22,7 @@
 ![](https://p.ananas.chaoxing.com/star3/origin/e1657e0e01caf9a5bbaff327b304375e.png) <br/>
 2）	安装wampserver，具体的安装教程在网上都可以找到。在安装wamp过程中，需要选择一个默认浏览器和默认编辑器（如sublime或其它）。安装完wampserver，本地环境就算搭完了。打开wampserver，带右下角的图标变绿说明wamp启动成功，如下图所示。<br/>
 ![](https://p.ananas.chaoxing.com/star3/origin/a82be81b93730414bd676bb4f2d98600.png)<br/>
-3）	对数据进行清洗、加工、特征分析，根据数据利用python语言的basemap库绘制人口热力图、人口密集度、人口聚集度图。<br/>
+3）在浏览器中输入http://localhost/phpmyadmin/,选择phpMyAdmin 后，浏览器中弹出phpMyAdmin 登录界面，用户名为root，密码为空，点击执行即可进入主页，如下图所示，后面将在此进行数据库设计。<br/>
+![](https://p.ananas.chaoxing.com/star3/origin/ff2280a07b614db91dd58a89813a7cf4.png)<br/>
 4）	同时，利用canvas前端技术，进行地理大数据可视化分析，绘制经济爆发点预测图、人口流动图、经济辐射图等。<br/>
 5）	完成数据可视化模块，将数据分析后所得图片制成web页面，便于用户查询。<br/>
