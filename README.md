@@ -24,9 +24,7 @@
 ![](https://p.ananas.chaoxing.com/star3/origin/a82be81b93730414bd676bb4f2d98600.png)<br/>
 3）在浏览器中输入http://localhost/phpmyadmin/,选择phpMyAdmin 后，浏览器中弹出phpMyAdmin 登录界面，用户名为root，密码为空，点击执行即可进入主页，如下图所示，后面将在此进行数据库设计。<br/>
 ![](https://p.ananas.chaoxing.com/star3/origin/ff2280a07b614db91dd58a89813a7cf4.png)<br/>
-4）	完成一个课程小程序，具有以下需求：<br/>![](https://github.com/Stephen5114/dataBank/blob/master/a.png) <br/>
-![image](https://github.com/Stephen5114/dataBank/blob/master/a.png)<br/>
-
+4）	完成一个课程小程序，具有以下需求：
 * 可以微信授权，获取个人信息
 
 * 可以进行注册
@@ -44,13 +42,13 @@
 项目总结
 ------
 ## 1. 项目过程遇到的问题和解决的办法
-* 1) 在配置Wam时，Wam为橙色，发现是端口占用的问题，经过百度，我test了3306和80端口，找到了占用80端口的sql server和3306的另一个mysql，这些程序被我禁止后，wam变成绿色，能够正常运行。  https://jingyan.baidu.com/article/c843ea0ba10c0d77921e4a61.html <br/>
-* 2) 在做微信授权的时候，button按钮没有显示出来，后来发现是没有清除缓存操作。</br>
+ 1) 在配置Wam时，Wam为橙色，发现是端口占用的问题，经过百度，我test了3306和80端口，找到了占用80端口的sql server和3306的另一个mysql，这些程序被我禁止后，wam变成绿色，能够正常运行。  https://jingyan.baidu.com/article/c843ea0ba10c0d77921e4a61.html <br/>
+ 2) 在做微信授权的时候，button按钮没有显示出来，后来发现是没有清除缓存操作。</br>
 ![](https://img-blog.csdnimg.cn/20200517153654611.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzA0MjAw,size_16,color_FFFFFF,t_70)<br/>
-* 3) 我的页面获取不到UserInf，解决办法：解决方法：register.js中添加wx.request({url:'https://zjgsujiaoxue.applinzi.com/index.php/Api/User/getInfo',data:{'openid':res.data.openid,},success:function(res1){wx.setStorageSync('userInfo',res1.data.data)},})
+ 3) 我的页面获取不到UserInf，解决办法：解决方法：register.js中添加wx.request({url:'https://zjgsujiaoxue.applinzi.com/index.php/Api/User/getInfo',data:{'openid':res.data.openid,},success:function(res1){wx.setStorageSync('userInfo',res1.data.data)},})
 <br/>
-* 4) 注册页面点击提交没反映，解决办法：解决方法：把register.js中的switchTab改为redirectTo，switchTab是为了给tarbar跳转使用，现阶段还没有设置tarbar所以先使用redirectTo函数来跳转到index页面。<br/>
-* 5) 获取的userinfo有误<br/>
+ 4) 注册页面点击提交没反映，解决办法：解决方法：把register.js中的switchTab改为redirectTo，switchTab是为了给tarbar跳转使用，现阶段还没有设置tarbar所以先使用redirectTo函数来跳转到index页面。<br/>
+ 5) 获取的userinfo有误<br/>
 ![](https://github.com/Stephen5114/dataBank/blob/master/a.png) <br/>
 ![image](https://github.com/Stephen5114/dataBank/blob/master/a.png)<br/>
 
