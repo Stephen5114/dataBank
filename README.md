@@ -24,5 +24,17 @@
 ![](https://p.ananas.chaoxing.com/star3/origin/a82be81b93730414bd676bb4f2d98600.png)<br/>
 3）在浏览器中输入http://localhost/phpmyadmin/,选择phpMyAdmin 后，浏览器中弹出phpMyAdmin 登录界面，用户名为root，密码为空，点击执行即可进入主页，如下图所示，后面将在此进行数据库设计。<br/>
 ![](https://p.ananas.chaoxing.com/star3/origin/ff2280a07b614db91dd58a89813a7cf4.png)<br/>
-4）	同时，利用canvas前端技术，进行地理大数据可视化分析，绘制经济爆发点预测图、人口流动图、经济辐射图等。<br/>
+4）	完成一个课程小程序，具有以下需求：<br/>
+
+*可以微信授权，获取个人信息
+
+*可以进行注册
+
+*注册成功登录后，可以进入我的页面，查看个人信息
+
+*可以修改个人信息
+
+*可以加入该课程进入学习
+
+*可以在课程中进行做题<br/>
 5）	完成数据可视化模块，将数据分析后所得图片制成web页面，便于用户查询。<br/>
