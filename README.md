@@ -49,6 +49,5 @@
 <br/>
  4) 注册页面点击提交没反映，解决办法：解决方法：把register.js中的switchTab改为redirectTo，switchTab是为了给tarbar跳转使用，现阶段还没有设置tarbar所以先使用redirectTo函数来跳转到index页面。<br/>
  5) 获取的userinfo有误<br/>
-![](https://github.com/Stephen5114/dataBank/blob/master/a.png) <br/>
-![image](https://github.com/Stephen5114/dataBank/blob/master/a.png)<br/>
+![image](https://img-blog.csdnimg.cn/20200517200105631.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzA0MjAw,size_16,color_FFFFFF,t_70)<br/>
 
