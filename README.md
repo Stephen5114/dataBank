@@ -46,3 +46,5 @@
 * 1) 在配置Wam时，Wam为橙色，发现是端口占用的问题，经过百度，我test了3306和80端口，找到了占用80端口的sql server和3306的另一个mysql，这些程序被我禁止后，wam变成绿色，能够正常运行。  https://jingyan.baidu.com/article/c843ea0ba10c0d77921e4a61.html <br/>
 * 2) 在做微信授权的时候，button按钮没有显示出来，后来发现是没有清除缓存操作。</br>
 ![](https://img-blog.csdnimg.cn/20200517153654611.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzA0MjAw,size_16,color_FFFFFF,t_70)<br/>
+* 3)我的页面获取不到UserInf<br/>
+![](https://img-blog.csdnimg.cn/20200517160050952.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzA0MjAw,size_16,color_FFFFFF,t_70#pic_center)
