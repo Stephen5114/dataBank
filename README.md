@@ -24,7 +24,8 @@
 ![](https://p.ananas.chaoxing.com/star3/origin/a82be81b93730414bd676bb4f2d98600.png)<br/>
 3）在浏览器中输入http://localhost/phpmyadmin/,选择phpMyAdmin 后，浏览器中弹出phpMyAdmin 登录界面，用户名为root，密码为空，点击执行即可进入主页，如下图所示，后面将在此进行数据库设计。<br/>
 ![](https://p.ananas.chaoxing.com/star3/origin/ff2280a07b614db91dd58a89813a7cf4.png)<br/>
-4）	完成一个课程小程序，具有以下需求：<br/>
+4）	完成一个课程小程序，具有以下需求：<br/>![](https://github.com/Stephen5114/dataBank/blob/master/a.png) <br/>
+![image](https://github.com/Stephen5114/dataBank/blob/master/a.png)<br/>
 
 * 可以微信授权，获取个人信息
 
