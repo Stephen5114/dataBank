@@ -30,12 +30,11 @@
 * 可以进行注册
 
 * 注册成功登录后，可以进入我的页面，查看个人信息
- ![图片](https://user-images.githubusercontent.com/52898623/216759288-dfd900e0-88bf-4286-930c-233391168663.png)
-![图片](https://user-images.githubusercontent.com/52898623/216759344-31f18b9f-b365-4b5f-aef4-37bacba91804.png)
+
 
 
 * 可以修改个人信息
-![图片](https://user-images.githubusercontent.com/52898623/216759360-c39895c9-4c14-48a5-b7d2-a26344a9e9e3.png)
+
 
 
 * 可以加入该课程进入学习
@@ -43,7 +42,9 @@
 * 可以在课程中进行做题<br/>
 5）	 最终，小程序完成，如下图所示：<br/>
 ![](https://img-blog.csdnimg.cn/20200517142941530.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzA0MjAw,size_16,color_FFFFFF,t_70#pic_center)<br/>
-
+ ![图片](https://user-images.githubusercontent.com/52898623/216759288-dfd900e0-88bf-4286-930c-233391168663.png)
+![图片](https://user-images.githubusercontent.com/52898623/216759344-31f18b9f-b365-4b5f-aef4-37bacba91804.png)
+![图片](https://user-images.githubusercontent.com/52898623/216759360-c39895c9-4c14-48a5-b7d2-a26344a9e9e3.png)
 项目总结
 ------
 ## 1. 项目过程遇到的问题和解决的办法
